@@ -1,6 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&family=Ubuntu:wght@300&display=swap');
 *{
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
     background-color: rgb(34, 34, 34);
     color: white;
+    max-width: 1200px; 
+    margin: 0 auto; /* Distancia para o lado esquerdo (tipo travessão) */
+    padding: 15px; /* Espaçamento entre os componentes */
+}
+
+header {
+    display: flex;
+    flex-direction: row; /* deixa um na frente do outro */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block; /* um do lado do outro */
+    margin: 20px; /* espaçamento */
+}
+
+h1 {
+    font-weight: 200; /* fonte fininha */
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
 }
